@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main_min.css">
+    <title> Nap's Space </title>
+</head>
+
+
+<body>   <!--这是一个注释，background="screenshots/OrangeRed.jpeg"注释在浏览器中不会显示-->
+    <div class="container">
+        <div class="search">
+            <input class="search-box" type="textbox" placeholder="Nap's Space" autofocus>
+            <div class="search-clear">×</div>
+        </div>
+
+        <div class="clock">
+            <div class="time">00:00</div>
+            <div class="date">Mon, 12 Sep </div>
+        </div>
+        <div class="calendar-modal">
+            <div class="calendar-container">
+                <div id="close-calendar" class="close-modal"> &times; </div>
+                <div class="cal-buttons-container">
+                    <div class='cal-prev cal-button'>
+                        <div class="cal-arrow-left">
+                            <svg height="5.6442mm" viewBox="0 0 11.268826 19.999077" width="3.1803mm">
+                                <image height="96" width="104" y="3.9289" x="-327.18" preserveAspectRatio="none" />
+                                <path style="stroke-linejoin:round;stroke:#fff;stroke-linecap:round;stroke-width:3;fill:none" d="m-19.338 19.34-13.278-12.941 13.246-12.941"
+                                />
+                                <path style="stroke-linejoin:round;stroke:#fff;stroke-linecap:round;stroke-width:3;fill:none" d="m9.7539 18.484-8.2541-8.4845 8.2342-8.4841"
+                                />
+                            </svg>
+                        </div>
+
+                    </div>
+                    <div class="cal-month-name">September</div>
+                    <div class='cal-next cal-button'>
+                        <div class="cal-arrow-right">
+                            <svg height="5.6442mm" viewBox="0 0 11.268827 19.999075" width="3.1803mm">
+                                <image height="96" width="104" y="3.9289" x="-327.18" preserveAspectRatio="none" />
+                                <path style="stroke-linejoin:round;stroke:#fff;stroke-linecap:round;stroke-width:3;fill:none" d="m-19.338 19.34-13.278-12.941 13.246-12.941"
+                                />
+                                <path style="stroke-linejoin:round;stroke:#fff;stroke-linecap:round;stroke-width:3;fill:none" d="m1.5149 18.484 8.2541-8.4845-8.2342-8.4841"
+                                />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="cal-day-titles">
+                    <h3>一</h3>
+                    <h3>二</h3>
+                    <h3>三</h3>
+                    <h3>四</h3>
+                    <h3>五</h3>
+                    <h3>六</h3>
+                    <h3>日</h3>
+                </div>
+                <div class='cal-weeks'>
+                    <!-- template -->
+                    <!-- <div class="cal-week">
+                        <div class="day">1</div>
+                        <div class="day">2</div>
+                        <div class="day">3</div>
+                        <div class="day">4</div>
+                        <div class="day">5</div>
+                        <div class="day">6</div>
+                        <div class="day">7</div>
+                    </div> -->
+                </div>
+                <div class='time-left'></div>
+            </div>
+        </div>
+        <div class="overlay"></div>
+    </div>
+
+    <div class="outer-slides-container">
+        <div class="buttons-container"></div>
+
+
+        <div class="arrow left-arrow">
+            <svg id="svg2" height="50px" width="50px" viewBox="0 0 50 50">
+                <g id="layer1" transform="translate(-132.69 -56.215)">
+                    <path id="path4152" style="stroke-linejoin:round;stroke-width:3;color:#fff;stroke:#fff;stroke-linecap:round;fill:none" d="m160.47 93.613-13.278-12.941 13.246-12.941"
+                    />
+                </g>
+            </svg>
+        </div>
+
+        <div class="arrow right-arrow">
+            <svg id="svg2" height="50px" width="50px" viewBox="0 0 50 50">
+                <g id="layer1" transform="translate(-140.69 -56.215)">
+                    <path id="path4152" style="stroke-linejoin:round;stroke-width:3;color:#fff;stroke:#fff;stroke-linecap:round;fill:none" d="m147.2 93.613 13.278-12.941-13.246-12.941"
+                    />
+                </g>
+            </svg>
+        </div>
+
+
+        <div class="slides-container">
+
+            <div class="slide" name="科研">
+
+                <div class="part">
+                    <h1> 英文期刊库 </h1>
+
+                    <div class="links">
+                        <a href='https://scholar.google.com/' target='_blank'>*Google Scholar</a>
+                        <a href='https://webofknowledge.com/' target='_blank'> Web of Science </a>
+                        <a href='https://search.ebscohost.com/' target='_blank'> EBSCO </a>
+                        <a href='https://www.ssrn.com/index.cfm/en/' target='_blank'>SSRN</a>
+                        <a href='https://www.proquest.com/site/pqdd_unavailable.shtml' target='_blank'> ProQuest </a>
+                        <a href='https://www.emerald.com/insight/' target='_blank'> Emerald Insight </a>
+                        <a href='https://link.springer.com/' target='_blank'> Springer </a>
+                        <a href='https://www.jstor.org/' target='_blank'> JSTOR </a>
+                        <a href='https://www.sciencedirect.com/' target='_blank'> ScienceDirect </a>
+                        <a href='https://onlinelibrary.wiley.com/' target='_blank'> Wiley </a>
+                        <a href='http://sage.cnpereading.com/' target='_blank'> SAGE </a>
+                        <a href='https://ideas.repec.org/' target='_blank'> IDEAS </a>
+                                                
+                        
+                    </div>
+                </div>
+
+
+                <div class="part">
+                    <h1> 中文期刊库 </h1>
+
+                    <div class="links">
+                        
+                        <a href='http://www.cnki.net/' target='_blank'> 知网 </a>
+                        <a href='https://www.wanfangdata.com.cn/index.html' target='_blank'> 万方 </a>
+                        <a href='http://qikan.cqvip.com/' target='_blank'> 维普 </a>
+                        <a href='https://xueshu.baidu.com/' target='_blank'> 百度学术 </a>
+                        <a href='https://scholar.cnki.net/' target='_blank'> CNKI Scholar </a>
+                        <a href='https://www.aminer.cn/login' target='_blank'> AMiner </a>
+
+                        
+
+
+                        
+                    </div>
+                </div>
+
+                <div class="part">
+                    <h1> 常用数据库 </h1>
+                    <div class="links">
+                        <a href='https://cn.gtadata.com/' target='_blank'> CSMAR </a>
+                        <a href='https://www.cnrds.com/Home/Login' target='_blank'> CNRDS </a>
+                        <a href='http://www.wingodata.com/#/dash/index' target='_blank'> WinGo </a>
+                        <a href='http://nav.lib.tsinghua.edu.cn/cgi-bin/searchuse.cgi?c=*&s=&begin=61' target='_blank'> 清华大学数据库导航系统 </a>
+                        <a href='http://www.cninfo.com.cn/new/index' target='_blank'> 巨潮资讯网 </a>
+                        <a href='https://www.eastmoney.com/' target='_blank'> 东方财富网 </a>
+                        <a href='http://zc.wefore.com/' target='_blank'> 中国产业政策网 </a>
+                        
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="slide" name="常用网址">
+                
+                <div class="part">
+                    <h1> 社区 </h1>
+                    <div class="links">
+                        <a href='https://www.researchgate.net/' target='_blank'> Research Gate </a>
+                        <a href='http://www.sciencenet.cn/' target='_blank'> 科学网 </a>
+                        <a href='http://www.jijitang.com/' target='_blank'> 唧唧堂 </a>
+                        <a href='http://muchong.com/bbs/index.php' target='_blank'> 小木虫 </a>
+                        <a href='http://www.letpub.com.cn/index.php?page=journalapp' target='_blank'> Letpub </a>
+                        <a href='https://www.lianxh.cn/' target='_blank'> 连享会主页 </a>
+                        <a href='https://www.zhihu.com/column/arlion' target='_blank'> 连享会-知乎 </a>
+                        <a href='https://bbs.pinggu.org/' target='_blank'> 人大经济论坛 </a>
+
+
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="part">
+                    <h1> 工具网站 </h1>
+
+                    <div class="links">
+                        <a href='https://cssrac.nju.edu.cn/cpzx/zwshkxywsy/index.html' target='_blank'> 中国社会科学研究评价中心 </a>
+                        <a href='http://eshukan.com/' target='_blank'> 万维书刊网 </a>
+                        <a href='https://www.clcindex.com/category/' target='_blank'> 中图分类号查询 </a>
+                        <a href='http://www.fms-journal.net/journals' target='_blank'> FMS高质量期刊 </a>
+                        <a href='https://mail.google.com/' target='_blank'> Gmail </a>
+                        <a href='https://docs.qq.com/' target='_blank'> 腾讯文档 </a>
+                        <a href='https://shimo.im/' target='_blank'> 石墨文档 </a>
+                        <a href='https://www.overleaf.com/latex/templates' target='_blank'> Overleaf </a>
+                        <a href='https://www.grammarly.com/' target='_blank'> Grammarly </a>
+                        <a href='https://www.termonline.cn/index' target='_blank'> 术语在线 </a>
+                    </div>
+                </div>
+
+                
+
+                <div class="part">
+                    <h1> 国内顶刊 </h1>
+
+                    <div class="links">
+                        <a href='https://navi.cnki.net/knavi/JournalDetail?pcode=CJFD&pykm=ZSHK' target='_blank'> 中国社会科学 </a>
+
+                        <a href='https://navi.cnki.net/knavi/JournalDetail?pcode=CJFD&pykm=JJYJ' target='_blank'> 经济研究 </a>
+
+                        <a href='https://navi.cnki.net/KNavi/JournalDetail?pcode=CJFD&pykm=GLSJ&Year=&Issue=' target='_blank'> 管理世界 </a>
+
+                        <a href='https://navi.cnki.net/knavi/JournalDetail?pcode=CJFD&pykm=GGYY' target='_blank'> 中国工业经济 </a>
+
+                        <a href='https://navi.cnki.net/knavi/JournalDetail?pcode=CJFD&pykm=JRYJ' target='_blank'> 金融研究 </a>
+
+                        <a href='https://navi.cnki.net/knavi/JournalDetail?pcode=CJFD&pykm=JJXU' target='_blank'> 经济学季刊 </a>
+
+                        <a href='https://navi.cnki.net/knavi/JournalDetail?pcode=CJFD&pykm=SLJY' target='_blank'> 数量经济技术经济研究 </a>
+
+                        <a href='https://navi.cnki.net/knavi/JournalDetail?pcode=CJFD&pykm=SJJJ' target='_blank'> 世界经济 </a>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide" name="摸鱼">
+                <div class="part">
+                    <h1> 资讯 </h1>
+                    <div class="links">
+                        <a href='http://xinhuanet.com/' target='_blank'> 新华网 </a>
+                        <a href='https://www.cctv.com/' target='_blank'> 央视网 </a>
+                        <a href='https://www.economist.com/' target='_blank'> The Economist </a>
+                        <a href='https://china.caixin.com/' target='_blank'> 财新网 </a>
+                        <a href='https://www.thepaper.cn/' target='_blank'> 澎湃新闻 </a>    
+                    </div>
+                </div>
+                <div class="part">
+                    <h1> 社区 </h1>
+                    <div class="links">
+                        <a href='https://www.zhihu.com/hot' target='_blank'> 知乎 </a>
+                        <a href='https://www.douban.com/' target='_blank'> 豆瓣 </a>
+                        <a href='https://weibo.com/' target='_blank'> 微博 </a>
+                        <a href='https://www.quora.com/' target='_blank'> Quora </a>
+                        <a href='https://medium.com/' target='_blank'> Medium </a>
+                    </div>
+                </div>
+
+                <div class="part">
+                    <h1> 视频 </h1>
+                    <div class="links">
+                        <a href='https://www.youtube.com/' target='_blank'> Youtube </a>
+                        <a href='https://www.bilibili.com/' target='_blank'> B站 </a>
+                        <a href='https://v.qq.com/' target='_blank'> 腾讯 </a>
+                        <a href='https://www.youku.com/' target='_blank'> 优酷 </a>
+                        <a href='https://www.iqiyi.com/' target='_blank'> 爱奇艺 </a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="slide" name="hiResearch">
+                <div class="part">
+                    <h1> hiResearch </h1>
+                    <div class="links">
+                        <a href='https://github.com/hiresearch/hiresearch.github.io' target='_blank'> hiResearch使用方法 </a>
+                        <a href='https://github.com/hiresearch/hiresearch.github.io/issues' target='_blank'> 我要增加网址 </a>
+                    </div>
+                </div>
+
+                <div class="part">
+                    <h1> IT天地 </h1>
+                    <div class="links">
+                        <a href='https://github.com/' target='_blank'> Github </a>
+                        <a href='https://gitee.com/' target='_blank'> Gitee </a>
+                        <a href='https://www.kaggle.com/' target='_blank'> Kaggle </a>
+                        <a href='https://stackoverflow.com/' target='_blank'> Stack Overflow </a>
+
+                    </div>
+                </div>
+                <div class="part">
+                    <h1> Python </h1>
+                    <div class="links">
+                        <a href='https://www.bilibili.com/video/BV1eb411h7sP' target='_blank'> Python语法入门 </a>
+                        <a href='https://www.bilibili.com/video/BV18v41187h9' target='_blank'> Python自动化办公 </a>
+                        <a href='https://ke.qq.com/course/482241?tuin=163164df' target='_blank'> Python网络爬虫与文本分析 </a>
+                        <a href='https://thunderhit.github.io/post/tutorial/hugo/' target='_blank'> DIY个人博客 </a>
+                    </div>
+                </div>
+            </div>
+                              
+
+        </div>
+
+
+        <!-- NOTES-->
+        <!-- button is added via notes.js file -->
+        <!-- TODO: change row in css file -->
+
+        <div class="notes-modal">
+            <div class="close-modal" id="notes-close-modal"> &times; </div>
+
+            <div class="notes-container">
+                <div class="row">
+
+                    <div class="half">
+                        <h2> Todo </h2>
+                        <div class="row margin-v-10">
+                            <input type="text" class="todo-input" id="todo-input" placeholder="Add task"></input>
+                            <button style="margin: 0" class="button" id="add-task-btn"> Add </button>
+                        </div>
+                        <div class="row margin-b-20">
+                            <span id="todo-input-msg" class="input-error"> <!-- error message goes here --></span>
+                        </div>
+                    </div>
+
+                    <div class="half">
+                        <h2> Filter </h2>
+                        <div class="row row-wrap margin-v-10">
+                            <button id="task-filter-all" class="button button-active margin-v-0"> All </button>
+                            <button id="task-filter-todo" class="button margin-v-0"> Todo </button>
+                            <button id="task-filter-done" class="button margin-v-0"> Completed </button>
+                            <button id="task-clear-done" class="button margin-v-0"> Clear finished </button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <h3 class="todo-items-counter">
+                        <span id="todo-done">1</span> / <span id="todo-items">10</span>
+                    </h3>
+
+                    <button class="button btn-save-tasks"> Save tasks </button>
+                </div>
+
+
+                <div class="notes-todo-list"></div>
+                <!-- example of task
+                        <div class="row">
+                            <input type="checkbox" class="strikethrough" id="bla bla"></input>
+                            <label for="bla bla"> Bla bla </label>
+                            <button class="button todo-btn todo-edit"> Edit </button>
+                            <button class="button todo-btn todo-delete"> Delete </button>
+                        </div>
+                        end of example -->
+
+                <!-- edit modal -->
+                <div class="modal" id="todo-edit-modal">
+                    <div class="close-modal" id="todo-edit-modal-close">&times;</div>
+
+                    <div class="row">
+                        <input type="text" id="todo-edit-input" class="todo-input" />
+                    </div>
+
+                    <div class="row margin-b-20">
+                        <span id="todo-edit-error" class="input-error"><!-- error message goes here --></span>
+                    </div>
+
+                    <div class="row center">
+                        <button id="todo-modal-cancel" class="button"> Cancel </button>
+                        <button id="todo-modal-save" class="button"> Save </button>
+                    </div>
+                </div>
+                <div class="overlay" id="todo-overlay"></div>
+
+            </div>
+        </div>
+
+
+        <!-- script for clock, calendar, slide transitions -->
+        <script src="components/clock.js"></script>
+
+        <!-- script for custom countdown shown into calendar modal -->
+        <script src="components/countdown.js"></script>
+
+        <!-- script for generating calendar -->
+        <script src="components/calendar.js"></script>
+
+        <!-- script for handling search -->
+        <script src="components/search-box.js"></script>
+
+        <!-- animating slides animations -->
+        <script src="components/slides.js"></script>
+
+        <!-- script for handling todo items -> notes -->
+        <script src="components/notes.js"></script>
+
+        <script>
+            // show clock and date under it
+            showClock();
+
+            // display countdown in calendar
+            countDown({
+                "y": 2022,
+                "m": 10,
+                "d": 1
+            }, "Message when your countdown ends");
+        </script>
+
+</body>
+
+</html>
