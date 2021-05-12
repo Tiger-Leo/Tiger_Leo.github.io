@@ -60,13 +60,13 @@ function checkBangs(query) {
         // ebay got fucked up search query, wtf ...
         if (withoutSearch.indexOf(bangPart) == -1) {
             query = createQuery(query_arr.slice(1).join(' '));
-            window.location = queries[bangPart] + query;
+            window.open(queries[bangPart] + query);
         } else {
-            window.location = queries[bangPart];
+            window.open(queries[bangPart]);
         }
     } else {
         query = createQuery(query);
-        window.location = search_engine + query;
+        window.open(search_engine + query);
     }
 }
 
