@@ -13,7 +13,6 @@
 - [**点击链接查看效果 https://github.com/Tiger-Leo/napspace.github.io/**](https://github.com/Tiger-Leo/napspace.github.io/)
 - 也可点击下方B站视频查看操作讲解
 
-[![HiResearch](screenshots/bilibili.png)](https://www.bilibili.com/video/BV1eK4y197x9/)
 
 <br>
 
@@ -178,14 +177,4 @@
 
 
 
-# 更多
-
-- [B站:大邓和他的python](https://space.bilibili.com/122592901/channel/detail?cid=66008)
-
-- 公众号：大邓和他的python
-
-- [知乎专栏：数据科学家](https://www.zhihu.com/people/hidadeng)
-
-
-![](screenshots/公众号.png)
 # nap_space
