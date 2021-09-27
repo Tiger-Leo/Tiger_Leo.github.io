@@ -1,4 +1,4 @@
-# Hi Research
+# Hi Napspace
 
 参考[GreatDanton](https://github.com/GreatDanton) 项目，丢弃庞杂丑陋的浏览器收藏夹， 打造简洁科研浏览器首页。
 
