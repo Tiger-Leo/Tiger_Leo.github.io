@@ -1,6 +1,6 @@
 // SEARCH BOX - contains code (logic) for search box on the front page
 
-var ENGINE = "baidu"; // google or ddg
+var ENGINE = "bing"; // google or ddg
 var search_box = document.getElementsByClassName('search-box')[0];
 var search_parent = search_box.parentNode;
 
@@ -27,7 +27,7 @@ search_box.onkeypress = function(e) {
 // ** BANGS **
 // shortcuts to common websites
 var queries = {
-    "!baidu": "https://www.baidu.com/s?wd=",
+    "!bing": "https://cn.bing.com/?mkt=zh-CN",
     "!scholar": "https://scholar.google.com/scholar?q=",
     "!mail": "https://mail.qq.com/",
     "!youtube": "https://www.youtube.com/results?search_query=",
@@ -42,7 +42,7 @@ var queries = {
 
 
 var searchEngines = {
-    "baidu": "https://www.baidu.com/s?wd=",
+    "bing": "https://cn.bing.com/?mkt=zh-CN",
 };
 
 
