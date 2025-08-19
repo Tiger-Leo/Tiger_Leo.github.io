@@ -42,7 +42,7 @@ var queries = {
 
 
 var searchEngines = {
-    "bing": "https://cn.bing.com/?mkt=zh-CN",
+    "bing": "https://cn.bing.com/search?q=",
 };
 
 
