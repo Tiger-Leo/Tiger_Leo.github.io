@@ -42,7 +42,7 @@ var queries = {
 
 
 var searchEngines = {
-    "bing": "https://cn.bing.com/",
+    "bing": "https://www.bing.com/search?q=",
 };
 
 
