@@ -43,7 +43,7 @@ var queries = {
 
 
 var searchEngines = {
-    "baidu": "https://www.baidu.com/s?wd=",
+    "baidu": "https://www.baidu.com/",
 };
 
 
