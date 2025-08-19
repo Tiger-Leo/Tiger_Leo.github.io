@@ -43,7 +43,7 @@ var queries = {
 
 
 var searchEngines = {
-    "baidu": "https://www.baidu.com/",
+    "!baidu": "https://www.baidu.com/s?wd=",
 };
 
 
@@ -66,8 +66,13 @@ function checkBangs(query) {
             window.open(queries[bangPart]);
         }
     } else {
+        var defaultBang = "!" + ENGINE;
         query = createQuery(query);
-        window.open(search_engine + query);
+        if (queries.hasOwnProperty(defaultBang)) {
+            window.open(search_engine + query);
+        } else {
+            window.open(searchEngines[ENGINE] + query);
+        }
     }
 }
 
