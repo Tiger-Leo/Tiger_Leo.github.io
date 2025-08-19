@@ -27,7 +27,7 @@ search_box.onkeypress = function(e) {
 // ** BANGS **
 // shortcuts to common websites
 var queries = {
-    "!bing": "https://cn.bing.com/?mkt=zh-CN",
+    "!bing": "https://cn.bing.com/search?q=",
     "!scholar": "https://scholar.google.com/scholar?q=",
     "!mail": "https://mail.qq.com/",
     "!youtube": "https://www.youtube.com/results?search_query=",
