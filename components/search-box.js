@@ -17,7 +17,6 @@ search_box.onkeypress = function(e) {
     if (keyCode == '13') {
         // open www.google.com#q=   search_value
         var query = search_box.value;
-
         checkBangs(query);
         return false;
     }
